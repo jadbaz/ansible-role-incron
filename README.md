@@ -1,7 +1,8 @@
 Ansible Role - incron
 =========
+[![Build Status](https://travis-ci.org/jadbaz/ansible-role-incron.svg?branch=master)](https://travis-ci.org/jadbaz/ansible-role-incron)
 
-[![Build Status](https://travis-ci.org/vkill/ansible-role-incron.svg?branch=master)](https://travis-ci.org/vkill/ansible-role-incron)
+(Forked from: [vkill/ansible-role-incron](https://github.com/vkill/ansible-role-incron))
 
 Incron Installation.
 
@@ -28,7 +29,7 @@ Example Playbook
   become: true
 
   roles:
-    - role: vkill.incron
+    - role: jadbaz.incron
       incron_system_tables:
         - name: demo
           path: /home/
