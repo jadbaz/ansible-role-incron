@@ -3,6 +3,7 @@ dependencies: []
 galaxy_info:
   author: jadbaz
   description: incron
+  role_name: incron
   company: jadbaz
 
   license: license ((BSD, MIT))
