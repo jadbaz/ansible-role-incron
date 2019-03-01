@@ -17,3 +17,6 @@ incron_reinstall_from_source: false
 
 incron_system_tables_dir: "/etc/incron.d/"
 incron_system_tables: []
+
+# Can include an rpm or deb package
+incron_package: incron
